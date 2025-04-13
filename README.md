@@ -50,8 +50,8 @@ python-plotting-tutorials/
 1. 克隆本项目：
 
 ```bash
-git clone https://github.com/你的用户名/python-plotting-tutorials.git
-cd python-plotting-tutorials
+git clone https://github.com/MarizonCE/python-plotting.git
+cd python-plotting
 ```
 
 2. 安装所需依赖：
