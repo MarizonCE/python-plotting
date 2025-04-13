@@ -1,6 +1,6 @@
 # 🎨 Python 绘图合集 | Python Plotting
 
-欢迎来到我的 Python 绘图教程仓库！
+欢迎来到我的 Python 绘图仓库！
 
 这个项目旨在系统整理并实践主流的 Python 可视化工具，包括 `matplotlib`、`seaborn`、`plotly` 等，用于个人查阅和复习。
 
@@ -10,7 +10,16 @@
 
 ## 🧭 仓库结构
 
-python-plotting-tutorials/ ├── matplotlib/        # matplotlib 教程和示例 ├── seaborn/           # seaborn 教程和美化技巧 ├── plotly/            # 交互式图表教程（可选） ├── others/            # 其他可视化库（bokeh、pyecharts 等） ├── images/            # 绘图效果展示图 ├── requirements.txt   # 所需 Python 库 └── README.md          # 本文件
+```bash
+python-plotting-tutorials/
+├── matplotlib/        # matplotlib 教程和示例
+├── seaborn/           # seaborn 教程和美化技巧
+├── plotly/            # 交互式图表教程（可选）
+├── others/            # 其他可视化库（bokeh、pyecharts 等）
+├── images/            # 绘图效果展示图
+├── requirements.txt   # 所需 Python 库
+└── README.md          # 本文件
+```
 
 ---
 
