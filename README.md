@@ -95,7 +95,7 @@ python matplotlib/examples/line_plot.py
 
 ## 💬 联系方式 & 参与贡献
 
-如果你有任何建议、发现错误，欢迎通过 [Issue](https://github.com/你的用户名/python-plotting-tutorials/issues) 或 PR 交流。
+如果你有任何建议、发现错误，欢迎通过 [Issue](https://github.com/MarizonCE/python-plotting/issues) 或 PR 交流。
  你也可以关注我或点一个 ⭐ 支持这个项目的持续更新！
 
 ------
