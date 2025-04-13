@@ -5,6 +5,10 @@
 ```python
 import matplotlib.pyplot as plt
 
+
+plt.rcParams['font.family'] = 'SimHei'  # 设置为黑体
+plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示为方块的问题
+
 # 模拟一些数据
 x = [1, 2, 3, 4, 5]
 y = [1, 4, 9, 16, 25]
@@ -27,4 +31,4 @@ plt.show()
 
 > 📷 效果图如下：
 
-![折线图](https://chatgpt.com/images/line_plot_demo.png)
+![折线图](https://marizonce.com/20250414012643467.png)
