@@ -5,28 +5,29 @@
 ```python
 import matplotlib.pyplot as plt
 
+# 设置中文字体和负号正常显示
+plt.rcParams['font.family'] = 'SimHei'  # 黑体
+plt.rcParams['axes.unicode_minus'] = False  # 负号
 
-plt.rcParams['font.family'] = 'SimHei'  # 设置为黑体
-plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示为方块的问题
-
-# 模拟一些数据
+# 数据
 x = [1, 2, 3, 4, 5]
 y = [1, 4, 9, 16, 25]
 
-# 创建图像和坐标轴
-plt.figure(figsize=(8, 5))  # 设置图像大小
-plt.plot(x, y, color='blue', linestyle='-', marker='o', label='y = x²')
+# 绘图
+plt.figure(figsize=(8, 5))
+plt.plot(x, y, color='blue', linestyle='-', marker='o', label=r'$y = x^2$')  # 使用 LaTeX 表达式显示上标
 
-# 添加标题和标签
+# 标题和标签
 plt.title('简单的折线图', fontsize=14)
 plt.xlabel('X 轴')
 plt.ylabel('Y 轴')
 
-# 添加图例
+# 图例
 plt.legend()
 
-# 显示图像
+# 显示
 plt.show()
+
 ```
 
 > 📷 效果图如下：
